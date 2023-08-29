@@ -48,10 +48,10 @@ def inference(inputs):
         input_map = inputs.get_as_json()
         data = input_map.pop("ask", input_map)
         
-        # if data.startswith("[INST]"):
-        #     data = data
-        # else:
-        #     data = get_prompt(data, [])
+        if data.startswith("[INST]"):
+            data = data
+        else:
+            data = get_prompt(data, [])
         
         parameters = input_map.pop("parameters", {})
         outputs = Output()
