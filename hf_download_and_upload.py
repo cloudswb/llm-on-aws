@@ -4,6 +4,7 @@ import subprocess
 from pathlib import Path
 from huggingface_hub import snapshot_download
 
+# From Github: https://github.com/cloudswb/llm-on-aws.git 
 
 def download_llm_from_huggingface(model_name, token, cache_path, max_call_times):
     local_cache_path = Path(cache_path)
