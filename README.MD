@@ -30,7 +30,7 @@ Run the python script : hf_download_and_upload.py
 python3 hf_download_and_upload.py \
 --model_name "BAAI/bge-large-en-v1.5" \
 --token "YOUR_MODEL_TOKEN" \
---cache_path "../cache/model/BAAI/bge-large-en-v1.5" \
+--cache_path "./cache/model/BAAI/bge-large-en-v1.5" \
 --max_call_times 10 \
 --aws_access_key "AKIA3FXLNLQOIG73VBVJ" \
 --aws_secret_key "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" \
