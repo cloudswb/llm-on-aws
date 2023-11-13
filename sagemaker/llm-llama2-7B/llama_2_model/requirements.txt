@@ -1,6 +1,0 @@
-transformers==4.28.1
-protobuf==3.20.1
-torch
-fairscale
-fire
-sentencepiece
