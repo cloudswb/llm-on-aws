@@ -54,7 +54,7 @@ python3 hf_download_and_upload.py \
 ```
 
 ## 2. Deploy the model to Sagemaker
-
+### Deploy Steps
 - Open/Create Sagemaker Notebook
 - Download git source code: https://github.com/cloudswb/llm-on-aws.git
 - Open the script (.ipynb file) from [deploy](https://github.com/cloudswb/llm-on-aws/tree/main/deploy) folder. Choose the right file depends on Model name.
@@ -71,9 +71,8 @@ python3 hf_download_and_upload.py \
 - Monitor the deploy progress
 - Test the LLM
 
+### Deploy Resources
 
-- Deploy Bge Embedding Model
-Run the file: bge_deploy.ipynb
-
-- Deploy LLama2 LLM Model
-Run the file: llama_deploy.ipynb
+- deploy
+  - bge_deploy.ipynb : Deploy Bge Embedding Model
+  - llama_deploy.ipynb : Deploy LLama2 LLM Model
