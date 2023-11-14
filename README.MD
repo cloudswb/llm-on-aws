@@ -39,7 +39,7 @@ python3 hf_download_and_upload.py \
 ```
 
 
-- Download the embedding model “BAAI/bge-large-en-v1.5”
+- Download the embedding model “meta-llama/Llama-2-7b-chat-hf”
 
 ```jsx
 python3 hf_download_and_upload.py \
@@ -70,3 +70,10 @@ python3 hf_download_and_upload.py \
 - Run the script to start deploy cell by cell or Run all cells
 - Monitor the deploy progress
 - Test the LLM
+
+
+- Deploy Bge Embedding Model
+Run the file: bge_deploy.ipynb
+
+- Deploy LLama2 LLM Model
+Run the file: llama_deploy.ipynb
